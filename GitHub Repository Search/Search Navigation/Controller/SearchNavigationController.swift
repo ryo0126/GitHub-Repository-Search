@@ -1,19 +1,17 @@
 //
-//  ViewController.swift
+//  SearchNavigationController.swift
 //  GitHub Repository Search
 //
-//  Created by Ryo on 2021/09/28.
+//  Created by Ryo on 2021/09/29.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class SearchNavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
 }
 
