@@ -5,8 +5,6 @@
 //  Created by Ryo on 2021/09/29.
 //
 
-import Foundation
-
 // MARK: - Base URL
 /// ベースURL
 public let baseUrl = "https://api.github.com"
