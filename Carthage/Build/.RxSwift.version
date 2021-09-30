@@ -1,0 +1,60 @@
+{
+  "Mac" : [
+    {
+      "swiftToolchainVersion" : "5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)",
+      "hash" : "3fd50510bae83a91031f2dea6039366cfd66e45d04745b0c8c115ed455a78925",
+      "name" : "RxCocoa",
+      "container" : "RxCocoa.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    }
+  ],
+  "watchOS" : [
+    {
+      "swiftToolchainVersion" : "5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)",
+      "hash" : "dad6e4a7f2e72409f9ec5be2b49a026c689c74d3a99d94c1f21a2fadc8627b85",
+      "name" : "RxCocoa",
+      "container" : "RxCocoa.xcframework",
+      "identifier" : "watchos-arm64_i386_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)",
+      "hash" : "fce8be2f370a2e8b8587ea3a6c339eec74e6a4261838cd3906e28b822ccc8b26",
+      "name" : "RxCocoa",
+      "container" : "RxCocoa.xcframework",
+      "identifier" : "watchos-arm64_32_armv7k"
+    }
+  ],
+  "tvOS" : [
+    {
+      "swiftToolchainVersion" : "5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)",
+      "hash" : "0e1f310511b6d81a3c2e2cfaea60b62bf9c0d0154d61dd45e721788b897d8a39",
+      "name" : "RxCocoa",
+      "container" : "RxCocoa.xcframework",
+      "identifier" : "tvos-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)",
+      "hash" : "a04e8b48e9fce18ab24db07fc9e75b67c85fc9d358b7acbcc786296738eb32c0",
+      "name" : "RxCocoa",
+      "container" : "RxCocoa.xcframework",
+      "identifier" : "tvos-arm64_x86_64-simulator"
+    }
+  ],
+  "commitish" : "6.2.0",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)",
+      "hash" : "3998acd4b68cfa8a696229b39bd0437857bb40bfc15edaa9077eeebf5b3cbf22",
+      "name" : "RxCocoa",
+      "container" : "RxCocoa.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)",
+      "hash" : "46b90e4b3463c85f7d0abbf25f8d6736f7a8463d67ccd56c01c525fa12d1acf7",
+      "name" : "RxCocoa",
+      "container" : "RxCocoa.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    }
+  ]
+}
