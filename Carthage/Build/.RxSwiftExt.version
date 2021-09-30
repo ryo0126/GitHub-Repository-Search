@@ -1,0 +1,19 @@
+{
+  "commitish" : "6.1.0",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
+      "hash" : "7f09969eb9e846b4f773d2a85e5f2b2d4c7ae5b65fe903c15552bb5c9665e280",
+      "name" : "RxSwiftExt",
+      "container" : "RxSwiftExt.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)",
+      "hash" : "662d60d97c78a56caa61bd9f88e21517394cb53b4e8bdad73a76854f69e64f18",
+      "name" : "RxSwiftExt",
+      "container" : "RxSwiftExt.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    }
+  ]
+}
