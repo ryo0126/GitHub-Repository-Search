@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A04B75527061A6C0050B82D /* RxSwiftExt.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A04B75427061A6C0050B82D /* RxSwiftExt.xcframework */; };
+		2A04B75627061A6C0050B82D /* RxSwiftExt.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A04B75427061A6C0050B82D /* RxSwiftExt.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2A04B75827062DAC0050B82D /* RepositoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A04B75727062DAC0050B82D /* RepositoryTableViewCell.xib */; };
+		2A04B75A27062E7E0050B82D /* RepositoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A04B75927062E7E0050B82D /* RepositoryTableViewCell.swift */; };
+		2A79A3F72705B4560029D72B /* SearchResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79A3F62705B4560029D72B /* SearchResultViewModel.swift */; };
+		2A79A3F92705B5900029D72B /* SearchResultUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79A3F82705B5900029D72B /* SearchResultUseCase.swift */; };
+		2A79A3FD2705DB070029D72B /* RxSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79A3FC2705DB070029D72B /* RxSwift.swift */; };
 		2A90A1DD2704AE91000F5C19 /* SearchNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A90A1DC2704AE91000F5C19 /* SearchNavigationController.swift */; };
 		2A90A1E02704B29D000F5C19 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A90A1DF2704B29D000F5C19 /* ViewModel.swift */; };
 		2A90A1E42704B3DE000F5C19 /* SearchRepositoryUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A90A1E32704B3DE000F5C19 /* SearchRepositoryUseCase.swift */; };
@@ -22,6 +29,8 @@
 		2A90A1FE2704C2C7000F5C19 /* RxCocoaRuntime.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A90A1FD2704C2C7000F5C19 /* RxCocoaRuntime.xcframework */; };
 		2A90A1FF2704C2C7000F5C19 /* RxCocoaRuntime.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A90A1FD2704C2C7000F5C19 /* RxCocoaRuntime.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2A90A2052704D71E000F5C19 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A90A2042704D71E000F5C19 /* SearchResultViewController.swift */; };
+		2A90A2082704E368000F5C19 /* SnapKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A90A2072704E368000F5C19 /* SnapKit.xcframework */; };
+		2A90A2092704E368000F5C19 /* SnapKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A90A2072704E368000F5C19 /* SnapKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2AC8C7B1270362B000A76325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC8C7B0270362B000A76325 /* AppDelegate.swift */; };
 		2AC8C7B3270362B000A76325 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC8C7B2270362B000A76325 /* SceneDelegate.swift */; };
 		2AC8C7B5270362B000A76325 /* SearchRepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC8C7B4270362B000A76325 /* SearchRepositoryViewController.swift */; };
@@ -46,7 +55,9 @@
 				2A90A1FB2704C2C6000F5C19 /* RxSwift.xcframework in Embed Frameworks */,
 				2A90A1F52704C2C6000F5C19 /* RxBlocking.xcframework in Embed Frameworks */,
 				2A90A1F72704C2C6000F5C19 /* RxCocoa.xcframework in Embed Frameworks */,
+				2A90A2092704E368000F5C19 /* SnapKit.xcframework in Embed Frameworks */,
 				2A90A1FF2704C2C7000F5C19 /* RxCocoaRuntime.xcframework in Embed Frameworks */,
+				2A04B75627061A6C0050B82D /* RxSwiftExt.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,6 +65,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A04B75427061A6C0050B82D /* RxSwiftExt.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwiftExt.xcframework; path = Carthage/Build/RxSwiftExt.xcframework; sourceTree = "<group>"; };
+		2A04B75727062DAC0050B82D /* RepositoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepositoryTableViewCell.xib; sourceTree = "<group>"; };
+		2A04B75927062E7E0050B82D /* RepositoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTableViewCell.swift; sourceTree = "<group>"; };
+		2A79A3F62705B4560029D72B /* SearchResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewModel.swift; sourceTree = "<group>"; };
+		2A79A3F82705B5900029D72B /* SearchResultUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultUseCase.swift; sourceTree = "<group>"; };
+		2A79A3FC2705DB070029D72B /* RxSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift.swift; sourceTree = "<group>"; };
 		2A90A1DC2704AE91000F5C19 /* SearchNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchNavigationController.swift; sourceTree = "<group>"; };
 		2A90A1DF2704B29D000F5C19 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		2A90A1E32704B3DE000F5C19 /* SearchRepositoryUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryUseCase.swift; sourceTree = "<group>"; };
@@ -63,6 +80,7 @@
 		2A90A1EF2704C0F0000F5C19 /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
 		2A90A1FD2704C2C7000F5C19 /* RxCocoaRuntime.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoaRuntime.xcframework; path = Carthage/Build/RxCocoaRuntime.xcframework; sourceTree = "<group>"; };
 		2A90A2042704D71E000F5C19 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		2A90A2072704E368000F5C19 /* SnapKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SnapKit.xcframework; path = Carthage/Build/SnapKit.xcframework; sourceTree = "<group>"; };
 		2AC8C7AD270362B000A76325 /* GitHub Repository Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub Repository Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC8C7B0270362B000A76325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AC8C7B2270362B000A76325 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,7 +107,9 @@
 				2A90A1FA2704C2C6000F5C19 /* RxSwift.xcframework in Frameworks */,
 				2A90A1F42704C2C6000F5C19 /* RxBlocking.xcframework in Frameworks */,
 				2A90A1F62704C2C6000F5C19 /* RxCocoa.xcframework in Frameworks */,
+				2A90A2082704E368000F5C19 /* SnapKit.xcframework in Frameworks */,
 				2A90A1FE2704C2C7000F5C19 /* RxCocoaRuntime.xcframework in Frameworks */,
+				2A04B75527061A6C0050B82D /* RxSwiftExt.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +143,7 @@
 		2A90A2002704D6D5000F5C19 /* Search Result */ = {
 			isa = PBXGroup;
 			children = (
+				2A90A2062704DBD5000F5C19 /* View */,
 				2A90A2012704D6F5000F5C19 /* Controller */,
 				2A90A2022704D6FE000F5C19 /* View Model */,
 				2A90A2032704D705000F5C19 /* Use Case */,
@@ -141,6 +162,7 @@
 		2A90A2022704D6FE000F5C19 /* View Model */ = {
 			isa = PBXGroup;
 			children = (
+				2A79A3F62705B4560029D72B /* SearchResultViewModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -148,8 +170,18 @@
 		2A90A2032704D705000F5C19 /* Use Case */ = {
 			isa = PBXGroup;
 			children = (
+				2A79A3F82705B5900029D72B /* SearchResultUseCase.swift */,
 			);
 			path = "Use Case";
+			sourceTree = "<group>";
+		};
+		2A90A2062704DBD5000F5C19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A04B75727062DAC0050B82D /* RepositoryTableViewCell.xib */,
+				2A04B75927062E7E0050B82D /* RepositoryTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		2AC8C7A4270362B000A76325 = {
@@ -253,6 +285,8 @@
 		2AC8C7CD2703711D00A76325 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2A04B75427061A6C0050B82D /* RxSwiftExt.xcframework */,
+				2A90A2072704E368000F5C19 /* SnapKit.xcframework */,
 				2A90A1FD2704C2C7000F5C19 /* RxCocoaRuntime.xcframework */,
 				2A90A1EE2704C0F0000F5C19 /* RxBlocking.xcframework */,
 				2A90A1EF2704C0F0000F5C19 /* RxRelay.xcframework */,
@@ -282,6 +316,7 @@
 			isa = PBXGroup;
 			children = (
 				2AC8C7DE27037E3F00A76325 /* URL.swift */,
+				2A79A3FC2705DB070029D72B /* RxSwift.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -348,6 +383,7 @@
 				2AC8C7BD270362B100A76325 /* LaunchScreen.storyboard in Resources */,
 				2AC8C7BA270362B100A76325 /* Assets.xcassets in Resources */,
 				2AC8C7B8270362B000A76325 /* Main.storyboard in Resources */,
+				2A04B75827062DAC0050B82D /* RepositoryTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,10 +401,14 @@
 				2AC8C7DC27037BA700A76325 /* Url.swift in Sources */,
 				2A90A1E42704B3DE000F5C19 /* SearchRepositoryUseCase.swift in Sources */,
 				2AC8C7D6270371EA00A76325 /* Repository.swift in Sources */,
+				2A79A3F72705B4560029D72B /* SearchResultViewModel.swift in Sources */,
+				2A79A3F92705B5900029D72B /* SearchResultUseCase.swift in Sources */,
 				2AC8C7B1270362B000A76325 /* AppDelegate.swift in Sources */,
 				2AC8C7D92703782F00A76325 /* ObservableRequest.swift in Sources */,
 				2AC8C7B3270362B000A76325 /* SceneDelegate.swift in Sources */,
 				2AC8C7DF27037E3F00A76325 /* URL.swift in Sources */,
+				2A79A3FD2705DB070029D72B /* RxSwift.swift in Sources */,
+				2A04B75A27062E7E0050B82D /* RepositoryTableViewCell.swift in Sources */,
 				2A90A2052704D71E000F5C19 /* SearchResultViewController.swift in Sources */,
 				2A90A1DD2704AE91000F5C19 /* SearchNavigationController.swift in Sources */,
 			);

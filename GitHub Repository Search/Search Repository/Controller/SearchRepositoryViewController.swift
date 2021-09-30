@@ -62,9 +62,16 @@ class SearchRepositoryViewController: UIViewController {
             .disposed(by: disposeBag)
         // 検索結果画面へ遷移
         output.showSearchResultViewController
-            .drive(onNext: {
-                // TODO: 検索結果画面へ遷移
-                print("Search for \($0)")
+            .drive(onNext: { [unowned self] searchText in
+                // ViewControllerを生成
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let resultViewController = storyboard.instantiateViewController(
+                    identifier: String(describing: SearchResultViewController.self),
+                    creator: { coder in
+                        SearchResultViewController(coder: coder, searchQuery: searchText)
+                    }
+                )
+                self.navigationController?.pushViewController(resultViewController, animated: true)
             })
             .disposed(by: disposeBag)
     }

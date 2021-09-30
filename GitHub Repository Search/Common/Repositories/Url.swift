@@ -32,6 +32,8 @@ public final class SearchRepositories : GitHubUrl {
 
     public enum Query : String {
         case query = "q"
+        case countPerPage = "per_page"
+        case inPage = "page"
     }
 
     public typealias AssociatedQuery = Query
